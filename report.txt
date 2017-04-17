@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+Processing file 'example.py'
+ outputting to 'example_1.0.py'
+--------------------------------------------------------------------------------
+
+'example.py' Line 72
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.sub' to 'tf.subtract'
+
+    Old:     sub = tf.sub(x, a)      # Add an op to subtract 'a' from 'x'.  Run it and print the result
+                   ~~~~~~                                                                               
+    New:     sub = tf.subtract(x, a)      # Add an op to subtract 'a' from 'x'.  Run it and print the result
+                   ~~~~~~~~~~~                                                                               
+
+'example.py' Line 47
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.mul' to 'tf.multiply'
+
+    Old:     mul = tf.mul(a, b)
+                   ~~~~~~       
+    New:     mul = tf.multiply(a, b)
+                   ~~~~~~~~~~~       
+
+
